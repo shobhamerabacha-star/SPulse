@@ -19,8 +19,6 @@ frontend/out/
 frontend/node_modules/
 
 # ── Environment & Secrets ──────────────────────────────────────────────────────
-.env
-.env.local
 .env.*.local
 *.pem
 .deploy.env
@@ -28,7 +26,6 @@ deploy-output.json
 deploy-mainnet-output.json
 
 # ── IDE / Editor ───────────────────────────────────────────────────────────────
-.vscode/
 !.vscode/settings.json
 !.vscode/extensions.json
 .idea/
@@ -50,3 +47,4 @@ yarn-error.log*
 
 # ── Stellar CLI local identity keystore ────────────────────────────────────────
 .stellar/
+config.bat
